@@ -1,1 +1,106 @@
+# Node.js
 node_modules/
+.pnp/
+.pnp.js
+.yarn/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+.npm/
+.eslintcache
+.prettiercache
+/coverage
+/.nyc_output
+/dist
+/build
+/out
+/es
+/lib
+/tmp
+
+# Editor/IDE files
+.vscode/        # VSCode specific files
+.idea/          # IntelliJ IDEA and WebStorm specific files
+.env            # Environment variables (crucial for security!)
+.DS_Store       # macOS specific files
+Thumbs.db       # Windows specific files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.code-workspace
+*.swp           # Vim swap files
+*.swo           # Vim swap files
+*~              # Temporary files (often created by editors)
+
+# Logs
+*.log
+logs/
+*.jfr
+
+# Dependency lock files (usually you want to commit these, but sometimes people ignore them)
+# If you use npm:
+# package-lock.json
+# If you use yarn:
+# yarn.lock
+# If you use pnpm:
+# pnpm-lock.yaml
+
+# Compiled/Generated files
+*.orig
+*.patch
+*.diff
+*.obj
+*.exe
+*.dll
+*.so
+*.o
+*.out
+*.apk
+*.ipa
+*.class
+*.pyc
+*.bin
+
+# Temporary files created by various tools
+temp/
+tmp/
+*.tmp
+*.bak
+*.old
+*.zip
+*.tar.gz
+*.rar
+
+# Test and coverage reports
+coverage/
+.nyc_output/
+
+# Uploads
+/uploads/ # If your app handles user uploads, keep them out of Git.
+
+# Database files
+*.sqlite
+*.db
+*.sql
+
+# System files
+.directory # Linux directory metadata
+.project # Eclipse project files
+.classpath # Eclipse project files
+
+# Private credentials / Sensitive data (very important!)
+# .env files are usually ignored, but if you have other files with credentials:
+# credentials.json
+# config.local.js
+# *.key
+# *.pem
+# This should *not* contain sensitive information directly in the code. Use .env files!
+
+# Miscellaneous
+.DS_Store
+.npmrc
+.nvmrc
+.eslintignore
+.dockerignore # You typically want to keep this, but listing here for completeness if you mistakenly ignored it.
